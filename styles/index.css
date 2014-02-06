@@ -1,0 +1,260 @@
+/*
+
+Specific Styles for Homepage Options
+
+*/
+
+body
+{
+   
+    font-family: Helvetica, Tahoma, Verdana, sans-serif;
+    background: url('../images/calendar.png') no-repeat fixed center rgba(204, 204, 204, 0.90);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    max-width: 100%;
+
+}
+
+h1
+{
+
+    line-height: 40px;
+    vertical-align: center;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.5em;
+    color: white;
+    text-shadow: 0px 1px 0px rgb(255, 255, 255, 0.5);
+
+}
+
+h1 img
+{
+
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+
+}
+
+#logout img
+{
+
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+
+}
+
+a#logout
+{
+
+    line-height: 20px;
+    font-size: 0.5em;
+    text-align: center;
+    vertical-align: center;
+
+}
+
+a#logout, a#login
+{
+
+    color: white;
+
+}
+
+a#logout:hover, a#login:hover
+{
+
+    color: black;  
+
+}
+   
+h3
+{
+
+    position: relative;
+    width: 60%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    background: none repeat scroll 0% 0% rgb(221, 221, 221);
+    border-radius: 4px;
+    padding: 2em 1.5em;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0px 1px 0px rgb(255, 255, 255, 0.5);
+    line-height: 1.5;
+    margin: 60px auto;
+   
+}
+
+h3:before, h3:after 
+{
+
+    z-index: -1; 
+    position: absolute; 
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%; 
+    top: 80%;
+    max-width:300px;
+    background: rgba(0, 0, 0, 0.7); 
+    -webkit-box-shadow: 0 15px 10px rgba(0,0,0, 0.7);   
+    -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    -webkit-transform: rotate(-3deg);    
+    -moz-transform: rotate(-3deg);   
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+
+}
+
+h3:after 
+{
+
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+    
+}   
+
+a, a:link, a:visited
+{
+
+    text-decoration: none;
+    -webkit-transition: color .4s linear;  
+    -moz-transition: color .4s linear;  
+    -o-transition: color .4s linear;  
+    -ms-transition: color .4s linear;  
+    transition: color .4s linear;  
+    
+}  
+    
+h3:hover
+{  
+    
+    background-color: rgba(66,66,66, 0.999);
+    color: white;  
+
+    text-decoration: none;
+    -webkit-transition: color .4s linear;  
+    -moz-transition: color .4s linear;  
+    -o-transition: color .4s linear;  
+    -ms-transition: color .4s linear;  
+    transition: color .4s linear;  
+    
+}  
+
+.container
+{
+
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding: 0px;
+    overflow: hidden;
+   
+}
+
+.row
+{
+   
+    width: 100%;
+    max-width: 1140px;
+    min-width: 755px;
+    margin: 0px auto;
+    overflow: hidden;
+   
+}
+   
+.fourcol
+{
+   
+    margin-right: 3.8%;
+    float: left;
+    min-height: 1px;
+   
+}
+   
+.row .fourcol
+{
+ 
+    width: 30.75%;
+    
+}
+   
+.last
+{
+   
+    margin-right: 0px;
+   
+}
+   
+@media only screen and (max-width:1023px)
+{
+   
+    body
+    {
+       
+        font-size: 0.8em;
+        line-height: 1.5em;
+           
+    }
+   
+}
+   
+@media only screen and (max-width:812px)
+{
+   
+    body
+    {
+       
+        font-size: 16px;
+        -webkit-text-size-adjust: none;
+       
+    }
+       
+    .row, body, .container
+    {
+           
+        width: 100%;
+        min-width: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+       
+    }
+       
+    .row .fourcol
+    {
+       
+        width: auto;
+        float: none;
+        margin-left: 0px;
+        margin-right: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+       
+    }
+   
+}
+
+/*
+
+Box Design Courtesy of Maria Stefani of Bundlr
+
+*/

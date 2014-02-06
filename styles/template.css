@@ -1,0 +1,89 @@
+body
+{
+   
+    font-family: Helvetica, Tahoma, Verdana, sans-serif;
+    background: url('../images/calendar.png') no-repeat fixed center rgba(204, 204, 204, 0.90);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    max-width: 100%;
+
+}
+
+h1
+{
+
+    line-height: 40px;
+    vertical-align: center;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.5em;
+    color: white;
+    text-shadow: 0px 1px 0px rgb(255, 255, 255, 0.5);
+
+}
+
+footer
+{
+
+    margin: auto 0px;
+    padding: 50px;
+
+}
+
+footer a:hover
+{  
+    
+    background-color: rgba(66,66,66, 0.999);
+    color: white;  
+
+    text-decoration: none;
+    -webkit-transition: color .4s linear;  
+    -moz-transition: color .4s linear;  
+    -o-transition: color .4s linear;  
+    -ms-transition: color .4s linear;  
+    transition: color .4s linear;  
+    
+}  
+
+footer a
+{
+
+    text-decoration: none;
+    position: relative;
+    max-width: 30%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    background: none repeat scroll 0% 0% rgb(221, 221, 221);
+    border-radius: 4px;
+    padding: 1em 1.5em;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0px 1px 0px rgb(255, 255, 255, 0.5);
+    line-height: 1;
+    margin: 60px auto;
+
+}
+
+footer a:first-child
+{
+
+    display:inline-block;
+    float:left;
+
+}
+
+footer a:last-child
+{
+
+    display:inline-block;
+    float: right;
+
+}
